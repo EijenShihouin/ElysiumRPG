@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu RPG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #111;
+            text-align: center;
+            padding: 10px 0;
+        }
+        header h1, footer p {
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            border-bottom: 1px solid #fff;
+            padding-bottom: 5px;
+        }
+        .map {
+            border: 1px solid #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .character-list {
+            border: 1px solid #fff;
+            padding: 10px;
+        }
+        .character-list input {
+            display: block;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu RPG</h1>
+    </header>
+    <main>
+        <section id="regras">
+            <h2>Regras do Jogo</h2>
+            <p>Aqui você pode adicionar as regras do seu RPG.</p>
+        </section>
+        <section id="modo-de-jogo">
+            <h2>Modo de Jogo</h2>
+            <p>Aqui você pode descrever como o jogo deve ser jogado.</p>
+        </section>
+        <section id="mapa">
+            <h2>Mapa</h2>
+            <div class="map">
+                <p>Aqui você pode adicionar a visualização do mapa.</p>
+            </div>
+        </section>
+        <section id="personagens">
+            <h2>Lista de Personagens</h2>
+            <div class="character-list">
+                <p>Aqui você pode adicionar e editar a lista de personagens.</p>
+                <input type="text" placeholder="Nome do personagem">
+                <input type="text" placeholder="Classe do personagem">
+                <button>Adicionar Personagem</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu RPG</p>
+    </footer>
+</body>
+</html>
